@@ -13,8 +13,11 @@ if ([string]::IsNullOrWhiteSpace($artifacts_path)) {
 $public_package_ids = @(
     'io.github.d9speed.editor_core', 'io.github.d9speed.scene_tools',
     'io.github.d9speed.humanoid_alias_copy', 'io.github.d9speed.package_exporter',
-    'io.github.d9speed.rename_tool'
+    'io.github.d9speed.rename_tool', 'io.github.d9speed.animation_tools',
+    'io.github.d9speed.skinned_mesh_tools', 'io.github.d9speed.prefab_color_variants',
+    'io.github.d9speed.screen_texture_capture', 'io.github.d9speed.cloth_fitting_tools'
 )
+$external_vpm_dependencies = @('com.vrchat.avatars')
 $listing_url = 'https://d9speed.github.io/Unity_Tools/index.json'
 $listing_id = 'io.github.d9speed.unity_tools'
 $listing = [ordered]@{
@@ -60,7 +63,7 @@ foreach ($artifact in $artifact_report) {
     if ($manifest.url -cne $expected_url -or $source_manifest.url -cne $expected_url) { throw "Unexpected download URL: $id" }
     if ($manifest.Contains('vpmDependencies')) {
         foreach ($dependency in $manifest.vpmDependencies.Keys) {
-            if ($dependency -notin $public_package_ids) { throw "Dependency is not in the public listing: $dependency" }
+            if ($dependency -notin $public_package_ids -and $dependency -notin $external_vpm_dependencies) { throw "Dependency is not approved: $dependency" }
         }
     }
     $manifest.zipSHA256 = $hash

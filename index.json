@@ -170,6 +170,129 @@
           "zipSHA256": "362437f83dc14bc0c683e2a824c2c59538c931634fe850eee459b6ab6b0f00da"
         }
       }
+    },
+    "io.github.d9speed.animation_tools": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.animation_tools",
+          "displayName": "D9speed Animation Tools",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Animator playback preview and random humanoid hand poses for the Unity Editor.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.animation_tools",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.animation_tools/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/animation_tools_v0.1.0/io.github.d9speed.animation_tools-0.1.0.zip",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0"
+          },
+          "zipSHA256": "abadc35bdfef045c55850b22cff2c0cd650aabb33b92707432cc7795f0c54615"
+        }
+      }
+    },
+    "io.github.d9speed.cloth_fitting_tools": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.cloth_fitting_tools",
+          "displayName": "D9speed Cloth Fitting Tools",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "PhysBone weight-based capsule collider generation and proxy constraint setup for VRChat avatars.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0",
+            "com.vrchat.avatars": ">=3.10.3 <3.11.0"
+          },
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.cloth_fitting_tools",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.cloth_fitting_tools/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/cloth_fitting_tools_v0.1.0/io.github.d9speed.cloth_fitting_tools-0.1.0.zip",
+          "zipSHA256": "97f7d633ba385ea26ab5ee6b0bbb8cfdeb0518931ec44975c647b7f1cb8ea649"
+        }
+      }
+    },
+    "io.github.d9speed.prefab_color_variants": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.prefab_color_variants",
+          "displayName": "D9speed Prefab Color Variants",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Create prefab color variants with configurable material replacements.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.prefab_color_variants",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.prefab_color_variants/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/prefab_color_variants_v0.1.0/io.github.d9speed.prefab_color_variants-0.1.0.zip",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0"
+          },
+          "zipSHA256": "7c59725bbb3430c9f06993a78d917214070a3dfac0bcb1ff47e14768a24b33b8"
+        }
+      }
+    },
+    "io.github.d9speed.screen_texture_capture": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.screen_texture_capture",
+          "displayName": "D9speed Screen Texture Capture",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Windows desktop region capture into a live editor texture using an externally supplied FFmpeg executable.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.screen_texture_capture",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.screen_texture_capture/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/screen_texture_capture_v0.1.0/io.github.d9speed.screen_texture_capture-0.1.0.zip",
+          "zipSHA256": "4028830c4f5f1cc8bc97f3ca3780104ede29adb523e6bf3c6ca30857b7c99dfd"
+        }
+      }
+    },
+    "io.github.d9speed.skinned_mesh_tools": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.skinned_mesh_tools",
+          "displayName": "D9speed Skinned Mesh Tools",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Extended SkinnedMeshRenderer inspector with blend shape and weighted bone utilities.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.skinned_mesh_tools",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.skinned_mesh_tools/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/skinned_mesh_tools_v0.1.0/io.github.d9speed.skinned_mesh_tools-0.1.0.zip",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0"
+          },
+          "zipSHA256": "c705e381b18bf929c0f31255f9ce4e0b4eb0ab1f938660913fec9aae97379052"
+        }
+      }
     }
   }
 }

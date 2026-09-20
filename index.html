@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="D9speedのUnity Editor拡張。Sceneビューのオブジェクト名・パッケージ情報を見やすく。VCC / ALCOMから導入できます。">
+  <meta name="theme-color" content="#143d3c">
+  <title>D9speed Unity Tools</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip_link" href="#main">本文へ移動</a>
+  <header class="site_header wrap">
+    <a class="brand" href="./" aria-label="D9speed Unity Tools ホーム"><span class="brand_mark">D9</span><span>D9speed <span class="brand_sub">/ Unity Tools</span></span></a>
+    <nav aria-label="メイン"><a href="#packages">ツール一覧</a><a href="#install">導入方法</a><a href="https://github.com/d9speed/unity_editor_tools">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero_title">
+      <div class="hero_copy">
+        <p class="eyebrow"><span class="status_dot" aria-hidden="true"></span> UNITY EDITOR EXTENSIONS</p>
+        <h1 id="hero_title">Sceneビューに、<br>見たい情報を。</h1>
+        <p class="hero_description">オブジェクト名も、パッケージ情報も。<br>Unityでの確認作業を助ける、D9speedの小さなツール集です。</p>
+        <a class="button primary" data-add-repository href="vcc://vpm/addRepo?url=https%3A%2F%2Fd9speed.github.io%2FUnity_Tools%2Findex.json"><span aria-hidden="true">＋</span> VCC / ALCOMに追加</a>
+        <p class="button_note">登録済みのアプリが開きます。<a href="#repository_url">URLで追加する</a></p>
+        <div class="hero_facts"><span>Unity 2022.3</span><span>Editor専用</span><span>MIT License</span></div>
+      </div>
+      <div class="scene_demo" role="img" aria-label="Sceneビューにオブジェクト名とパッケージ情報を表示するイメージ">
+        <div class="demo_toolbar"><span><span class="small_square" aria-hidden="true"></span> Scene</span><span class="demo_caption">表示イメージ</span></div>
+        <div class="demo_canvas">
+          <span class="demo_label label_head"><i aria-hidden="true"></i> Head</span>
+          <span class="demo_label label_body"><i aria-hidden="true"></i> Body <small>SkinnedMeshRenderer</small></span>
+          <span class="demo_label label_hand"><i aria-hidden="true"></i> Hand_L</span>
+          <div class="wire_shape shape_head" aria-hidden="true"></div><div class="wire_shape shape_body" aria-hidden="true"></div><div class="wire_shape shape_hand" aria-hidden="true"></div>
+          <div class="demo_axis" aria-hidden="true"><span>Y</span><span>X</span></div>
+          <div class="demo_info"><div>Package / Prefab Info <span aria-hidden="true">•••</span></div><p><span>Selected</span><strong>Avatar</strong></p><p><span>Renderers</span><strong>3</strong></p><p><span>Materials</span><strong>4</strong></p></div>
+        </div>
+        <div class="demo_footer"><span class="status_dot" aria-hidden="true"></span> 必要な情報を、その場で確認。</div>
+      </div>
+    </section>
+    <section id="packages" class="packages_section" aria-labelledby="packages_title">
+      <div class="wrap">
+        <div class="section_heading"><div><p class="eyebrow">PACKAGES</p><h2 id="packages_title">ツール一覧</h2></div><p>まずはScene Toolsから。</p></div>
+        <div class="package_grid">
+          <article class="package_card main_package">
+            <div class="card_top"><span class="package_symbol" aria-hidden="true">⌗</span><span class="version" data-version="io.github.d9speed.scene_tools">v0.1.0</span></div>
+            <p class="card_category">SCENE VIEW</p><h3>D9speed Scene Tools</h3>
+            <p class="card_intro">名前と構成を、Sceneビューから確認。</p>
+            <dl class="features"><div><dt>Display Child Names</dt><dd>オブジェクト名・コンポーネントを表示。カーソル付近の表示やラベル固定に対応します。</dd></div><div><dt>Package / Prefab Info</dt><dd>対応パッケージのバージョンと、選択プレハブのメッシュ・マテリアル情報を表示します。</dd></div></dl>
+            <div class="card_bottom"><span>Editor Coreも一緒に導入されます</span><a href="https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.scene_tools">使い方を見る <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="package_card core_package">
+            <div class="card_top"><span class="package_symbol" aria-hidden="true">＋</span><span class="version" data-version="io.github.d9speed.editor_core">v0.1.0</span></div>
+            <p class="card_category">SHARED UTILITIES</p><h3>D9speed Editor Core</h3>
+            <p class="card_intro">ツールを支える、共通の補助機能。</p>
+            <p class="core_description">D9speedのEditor拡張が利用する共通パッケージです。Scene Toolsに必要なオブジェクト検索などの処理をまとめています。</p>
+            <div class="core_note"><span aria-hidden="true">↳</span> 通常は個別に操作する必要はありません。</div>
+            <div class="card_bottom"><span>共通基盤</span><a href="https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.editor_core">詳細を見る <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="install" class="install_section wrap" aria-labelledby="install_title">
+      <div class="section_heading"><div><p class="eyebrow">GET STARTED</p><h2 id="install_title">3ステップで導入</h2></div></div>
+      <ol class="steps"><li><span class="step_number">01</span><h3>リポジトリを追加</h3><p>上の追加ボタンを押し、VCCまたはALCOMで内容を確認して追加します。</p></li><li><span class="step_number">02</span><h3>Scene Toolsを導入</h3><p>使いたいプロジェクトの管理画面で「D9speed Scene Tools」を追加します。</p></li><li><span class="step_number">03</span><h3>Unityで表示</h3><p>SceneビューのOverlaysメニューから「Display Child Names」「Package / Prefab Info」を表示します。</p></li></ol>
+      <div class="repository_box" id="repository_url"><div><h3>URLを使って追加する場合</h3><p>VCC / ALCOMのリポジトリ追加画面に貼り付けてください。</p></div><div class="copy_row"><label class="visually_hidden" for="repo_url">リポジトリURL</label><input id="repo_url" readonly value="https://d9speed.github.io/Unity_Tools/index.json" spellcheck="false"><button type="button" id="copy_url">URLをコピー</button></div><p id="copy_status" class="copy_status" role="status" aria-live="polite"></p></div>
+      <div class="compatibility"><h3>導入前に</h3><p>動作確認環境はUnity 2022.3.22f1です。旧Assets版の同じツールが入っている場合は、ファイルが重複するため追加を控え、新規プロジェクトでお試しください。</p><p>VRChat SDKは必須ではありません。Unity 6と各SDK連携の網羅的な確認は未実施です。</p></div>
+    </section>
+  </main>
+  <footer class="site_footer wrap"><p><strong>D9speed Unity Tools</strong><span>© 2026 D9speed · <a href="LICENSE">MIT License</a></span></p><div><a href="https://github.com/d9speed/unity_editor_tools/issues">不具合の報告</a><a href="mailto:d09pseed@gmail.com">お問い合わせ</a><a href="index.json">VPM一覧</a></div></footer>
+</body>
+</html>

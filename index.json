@@ -1,0 +1,55 @@
+{
+  "name": "D9speed Unity Tools",
+  "id": "io.github.d9speed.unity_tools",
+  "url": "https://d9speed.github.io/Unity_Tools/index.json",
+  "author": "d9speed <d09pseed@gmail.com>",
+  "packages": {
+    "io.github.d9speed.editor_core": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.editor_core",
+          "displayName": "D9speed Editor Core",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Shared Editor helpers for D9speed tools. This initial package provides EditorObjectHelper.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.editor_core",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.editor_core/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/editor_core_v0.1.0/io.github.d9speed.editor_core-0.1.0.zip",
+          "zipSHA256": "753eaa91cd18f0dcc0046543cf53d5e57ecf74dd0ad4242f36411d8306a5d8e4"
+        }
+      }
+    },
+    "io.github.d9speed.scene_tools": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.scene_tools",
+          "displayName": "D9speed Scene Tools",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Scene View object and component labels, package versions, and prefab mesh information.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.0 <0.2.0"
+          },
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.scene_tools",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.scene_tools/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/scene_tools_v0.1.0/io.github.d9speed.scene_tools-0.1.0.zip",
+          "zipSHA256": "809d05b7643e4ebac2c5e931b25b236289e1adad85eb5cc938d7e3911dc60385"
+        }
+      }
+    }
+  }
+}

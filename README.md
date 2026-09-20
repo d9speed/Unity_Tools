@@ -8,7 +8,7 @@ D9speedの公開Unity Editor拡張の案内ページとVPM一覧です。
 
 ## 構成
 
-- `index.html` / `styles.css` / `site.js`: 案内ページ。外部ライブラリやビルド処理は不要。
+- `index.html` / `styles.css`: 黒背景・白文字の案内ページ。パッケージ名とツール名から説明へ移動できます。JavaScriptや外部ライブラリ、ビルド処理は不要です。
 - `index.json`: 公開パッケージ一覧。
 - `tools/build_listing.ps1`: 配布ZIPから一覧を生成するPowerShell 7用スクリプト。
 

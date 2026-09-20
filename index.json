@@ -23,6 +23,24 @@
           "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.editor_core/CHANGELOG.md",
           "url": "https://github.com/d9speed/unity_editor_tools/releases/download/editor_core_v0.1.0/io.github.d9speed.editor_core-0.1.0.zip",
           "zipSHA256": "753eaa91cd18f0dcc0046543cf53d5e57ecf74dd0ad4242f36411d8306a5d8e4"
+        },
+        "0.1.1": {
+          "name": "io.github.d9speed.editor_core",
+          "displayName": "D9speed Editor Core",
+          "version": "0.1.1",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Shared Editor helpers for D9speed tools: object lookup, hierarchy mapping, component copying, file names, and UI font preferences.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.editor_core",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.editor_core/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/editor_core_v0.1.1/io.github.d9speed.editor_core-0.1.1.zip",
+          "zipSHA256": "33cfba967ce65fae4ef5d4ae5a14a405494d93b4e680a88304afe7cf01359976"
         }
       }
     },
@@ -48,6 +66,84 @@
           "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.scene_tools/CHANGELOG.md",
           "url": "https://github.com/d9speed/unity_editor_tools/releases/download/scene_tools_v0.1.0/io.github.d9speed.scene_tools-0.1.0.zip",
           "zipSHA256": "809d05b7643e4ebac2c5e931b25b236289e1adad85eb5cc938d7e3911dc60385"
+        }
+      }
+    },
+    "io.github.d9speed.humanoid_alias_copy": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.humanoid_alias_copy",
+          "displayName": "D9speed Humanoid Alias Copy",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Copy components between scene hierarchies using a bundled humanoid bone alias dictionary.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0"
+          },
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.humanoid_alias_copy",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.humanoid_alias_copy/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/humanoid_alias_copy_v0.1.0/io.github.d9speed.humanoid_alias_copy-0.1.0.zip",
+          "zipSHA256": "e62b1cac7044e1e63267f50066502ee5af6ea0371f17871ee457ca406f0120cb"
+        }
+      }
+    },
+    "io.github.d9speed.package_exporter": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.package_exporter",
+          "displayName": "D9speed Package Exporter",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Batch-export Unity packages with profiles, exclusions, dependency checks, and component reports.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0"
+          },
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.package_exporter",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.package_exporter/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/package_exporter_v0.1.0/io.github.d9speed.package_exporter-0.1.0.zip",
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "zipSHA256": "cd6fa99ef5a2b42e026cffe3a55a9bb34e0e5388897d310a9f2b6359cea3445c"
+        }
+      }
+    },
+    "io.github.d9speed.rename_tool": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.rename_tool",
+          "displayName": "D9speed Rename Tool",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Preview and batch-rename assets, hierarchy objects, and Animator names.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0"
+          },
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.rename_tool",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.rename_tool/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/rename_tool_v0.1.0/io.github.d9speed.rename_tool-0.1.0.zip",
+          "zipSHA256": "362437f83dc14bc0c683e2a824c2c59538c931634fe850eee459b6ab6b0f00da"
         }
       }
     }

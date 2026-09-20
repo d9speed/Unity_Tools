@@ -10,7 +10,11 @@ if ([string]::IsNullOrWhiteSpace($artifacts_path)) {
     $artifacts_path = Join-Path $package_repo_path 'artifacts\release_0_1_0'
 }
 # Explicitly select public packages; never discover private repositories or credentials.
-$public_package_ids = @('io.github.d9speed.editor_core', 'io.github.d9speed.scene_tools')
+$public_package_ids = @(
+    'io.github.d9speed.editor_core', 'io.github.d9speed.scene_tools',
+    'io.github.d9speed.humanoid_alias_copy', 'io.github.d9speed.package_exporter',
+    'io.github.d9speed.rename_tool'
+)
 $listing_url = 'https://d9speed.github.io/Unity_Tools/index.json'
 $listing_id = 'io.github.d9speed.unity_tools'
 $listing = [ordered]@{
@@ -29,7 +33,11 @@ if (Test-Path -LiteralPath $output_path) {
 }
 $artifact_report = @(Get-Content -LiteralPath (Join-Path $artifacts_path 'package_artifacts.json') -Raw | ConvertFrom-Json)
 Add-Type -AssemblyName System.IO.Compression.FileSystem
-foreach ($id in $public_package_ids) {
+$seen = @{}
+foreach ($artifact in $artifact_report) {
+    $id = $artifact.package
+    if ($id -notin $public_package_ids -or $seen.ContainsKey($id)) { throw "Unexpected or duplicate artifact: $id" }
+    $seen[$id] = $true
     $source_manifest = Get-Content -LiteralPath (Join-Path $package_repo_path "packages\$id\package.json") -Raw | ConvertFrom-Json
     $version = $source_manifest.version
     $zip_name = "$id-$version.zip"

@@ -211,6 +211,27 @@
             "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0"
           },
           "zipSHA256": "abadc35bdfef045c55850b22cff2c0cd650aabb33b92707432cc7795f0c54615"
+        },
+        "0.1.1": {
+          "name": "io.github.d9speed.animation_tools",
+          "displayName": "D9speed Animation Tools",
+          "version": "0.1.1",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Animator playback preview and random humanoid hand poses for the Unity Editor.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.animation_tools",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.animation_tools/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/animation_tools_v0.1.1/io.github.d9speed.animation_tools-0.1.1.zip",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0"
+          },
+          "zipSHA256": "49df32e451f550e7c702e864646186b48763d9ede6cae168a99717efad105bae"
         }
       }
     },
@@ -349,6 +370,24 @@
           "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.unity_blender_pose_sync/CHANGELOG.md",
           "url": "https://github.com/d9speed/unity_editor_tools/releases/download/unity_blender_pose_sync_v0.1.1/io.github.d9speed.unity_blender_pose_sync-0.1.1.zip",
           "zipSHA256": "9406efafba99de5f425794e95d1ec4e31d623017a2287fccc889f2e0b728e43d"
+        },
+        "0.1.2": {
+          "name": "io.github.d9speed.unity_blender_pose_sync",
+          "displayName": "D9speed Unity Blender Pose Sync",
+          "version": "0.1.2",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Live pose and camera sync from Unity to Blender, including Runtime and the Blender receiver.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.unity_blender_pose_sync",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.unity_blender_pose_sync/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/unity_blender_pose_sync_v0.1.2/io.github.d9speed.unity_blender_pose_sync-0.1.2.zip",
+          "zipSHA256": "b0bc1a4eeb7d6f40274fcc2738d744c16526de89013a8fe71fbce3ee1d5cd4b6"
         }
       }
     },

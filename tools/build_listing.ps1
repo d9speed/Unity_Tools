@@ -15,7 +15,7 @@ $public_package_ids = @(
     'io.github.d9speed.humanoid_alias_copy', 'io.github.d9speed.package_exporter',
     'io.github.d9speed.rename_tool', 'io.github.d9speed.animation_tools',
     'io.github.d9speed.skinned_mesh_tools', 'io.github.d9speed.prefab_color_variants',
-    'io.github.d9speed.screen_texture_capture', 'io.github.d9speed.cloth_fitting_tools',
+    'io.github.d9speed.nvenc_gpu_recorder', 'io.github.d9speed.cloth_fitting_tools',
     'io.github.d9speed.unity_blender_pose_sync'
 )
 $external_vpm_dependencies = @('com.vrchat.avatars')
@@ -31,6 +31,8 @@ $listing = [ordered]@{
 if (Test-Path -LiteralPath $output_path) {
     $listing = Get-Content -LiteralPath $output_path -Raw | ConvertFrom-Json -AsHashtable
     if ($listing.id -cne $listing_id -or $listing.url -cne $listing_url) { throw 'Unexpected repository identity' }
+    # Explicit withdrawal: keep unrelated history, but do not advertise retired packages.
+    $listing.packages.Remove('io.github.d9speed.screen_texture_capture') | Out-Null
     foreach ($id in $listing.packages.Keys) {
         if ($id -notin $public_package_ids) { throw "Package is not approved for this listing: $id" }
     }

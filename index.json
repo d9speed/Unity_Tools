@@ -287,28 +287,6 @@
         }
       }
     },
-    "io.github.d9speed.screen_texture_capture": {
-      "versions": {
-        "0.1.0": {
-          "name": "io.github.d9speed.screen_texture_capture",
-          "displayName": "D9speed Screen Texture Capture",
-          "version": "0.1.0",
-          "unity": "2022.3",
-          "unityRelease": "22f1",
-          "description": "Windows desktop region capture into a live editor texture using an externally supplied FFmpeg executable.",
-          "author": {
-            "name": "d9speed",
-            "email": "d09pseed@gmail.com",
-            "url": "https://github.com/d9speed"
-          },
-          "license": "MIT",
-          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.screen_texture_capture",
-          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.screen_texture_capture/CHANGELOG.md",
-          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/screen_texture_capture_v0.1.0/io.github.d9speed.screen_texture_capture-0.1.0.zip",
-          "zipSHA256": "4028830c4f5f1cc8bc97f3ca3780104ede29adb523e6bf3c6ca30857b7c99dfd"
-        }
-      }
-    },
     "io.github.d9speed.skinned_mesh_tools": {
       "versions": {
         "0.1.0": {
@@ -371,6 +349,28 @@
           "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.unity_blender_pose_sync/CHANGELOG.md",
           "url": "https://github.com/d9speed/unity_editor_tools/releases/download/unity_blender_pose_sync_v0.1.1/io.github.d9speed.unity_blender_pose_sync-0.1.1.zip",
           "zipSHA256": "9406efafba99de5f425794e95d1ec4e31d623017a2287fccc889f2e0b728e43d"
+        }
+      }
+    },
+    "io.github.d9speed.nvenc_gpu_recorder": {
+      "versions": {
+        "0.1.0": {
+          "name": "io.github.d9speed.nvenc_gpu_recorder",
+          "displayName": "D9speed NVENC GPU Recorder",
+          "version": "0.1.0",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Camera and RenderTexture recording on Windows: direct GPU NVENC HEVC/MP4 and alpha ProRes 4444/MOV with PNG export. FFmpeg must be supplied separately.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.nvenc_gpu_recorder",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.nvenc_gpu_recorder/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/nvenc_gpu_recorder_v0.1.0/io.github.d9speed.nvenc_gpu_recorder-0.1.0.zip",
+          "zipSHA256": "66a89b0182390dbdf0c8944fe8cd17f45ba3ca9f2b40584cc90d0f7e2e366e63"
         }
       }
     }

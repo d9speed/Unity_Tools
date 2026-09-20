@@ -15,7 +15,8 @@ $public_package_ids = @(
     'io.github.d9speed.humanoid_alias_copy', 'io.github.d9speed.package_exporter',
     'io.github.d9speed.rename_tool', 'io.github.d9speed.animation_tools',
     'io.github.d9speed.skinned_mesh_tools', 'io.github.d9speed.prefab_color_variants',
-    'io.github.d9speed.screen_texture_capture', 'io.github.d9speed.cloth_fitting_tools'
+    'io.github.d9speed.screen_texture_capture', 'io.github.d9speed.cloth_fitting_tools',
+    'io.github.d9speed.unity_blender_pose_sync'
 )
 $external_vpm_dependencies = @('com.vrchat.avatars')
 $listing_url = 'https://d9speed.github.io/Unity_Tools/index.json'

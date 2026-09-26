@@ -149,6 +149,24 @@
           "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.editor_core/CHANGELOG.md",
           "url": "https://github.com/d9speed/unity_editor_tools/releases/download/editor_core_v0.1.7/io.github.d9speed.editor_core-0.1.7.zip",
           "zipSHA256": "ded7617f47deb6d2a75ac5ff747318253b559ba16ebb2a2d6825693e4c2de9f2"
+        },
+        "0.1.8": {
+          "name": "io.github.d9speed.editor_core",
+          "displayName": "D9speed Editor Core",
+          "version": "0.1.8",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Shared Editor helpers, asset and hierarchy context utilities, Transform tools, and preferences for D9speed tools.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.editor_core",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.editor_core/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/editor_core_v0.1.8/io.github.d9speed.editor_core-0.1.8.zip",
+          "zipSHA256": "06c1e7b94c0a29937ab4237f2d0e2cdac226c881eaf80ebd302a7eba6fae053d"
         }
       }
     },

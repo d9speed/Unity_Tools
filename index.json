@@ -277,6 +277,27 @@
           "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.humanoid_alias_copy/CHANGELOG.md",
           "url": "https://github.com/d9speed/unity_editor_tools/releases/download/humanoid_alias_copy_v0.1.0/io.github.d9speed.humanoid_alias_copy-0.1.0.zip",
           "zipSHA256": "e62b1cac7044e1e63267f50066502ee5af6ea0371f17871ee457ca406f0120cb"
+        },
+        "0.1.1": {
+          "name": "io.github.d9speed.humanoid_alias_copy",
+          "displayName": "D9speed Humanoid Alias Copy",
+          "version": "0.1.1",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Copy components between scene hierarchies using a bundled humanoid bone alias dictionary.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.1 <0.2.0"
+          },
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.humanoid_alias_copy",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.humanoid_alias_copy/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/humanoid_alias_copy_v0.1.1/io.github.d9speed.humanoid_alias_copy-0.1.1.zip",
+          "zipSHA256": "a8de0c218b5e294054edbbaddf4547e67739b45fa171da2ac144f868b21905ae"
         }
       }
     },

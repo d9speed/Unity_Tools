@@ -384,6 +384,27 @@
           "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.scene_tools/CHANGELOG.md",
           "url": "https://github.com/d9speed/unity_editor_tools/releases/download/scene_tools_v0.1.4/io.github.d9speed.scene_tools-0.1.4.zip",
           "zipSHA256": "6ee8f71078f1bb08abad0f7e9f398a473eac1a09e4ed19d4666bf4f48ee27e24"
+        },
+        "0.1.5": {
+          "name": "io.github.d9speed.scene_tools",
+          "displayName": "D9speed Scene Tools",
+          "version": "0.1.5",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "description": "Scene View object and component labels, package versions, and prefab mesh information.",
+          "author": {
+            "name": "d9speed",
+            "email": "d09pseed@gmail.com",
+            "url": "https://github.com/d9speed"
+          },
+          "license": "MIT",
+          "vpmDependencies": {
+            "io.github.d9speed.editor_core": ">=0.1.0 <0.2.0"
+          },
+          "documentationUrl": "https://github.com/d9speed/unity_editor_tools/tree/main/packages/io.github.d9speed.scene_tools",
+          "changelogUrl": "https://github.com/d9speed/unity_editor_tools/blob/main/packages/io.github.d9speed.scene_tools/CHANGELOG.md",
+          "url": "https://github.com/d9speed/unity_editor_tools/releases/download/scene_tools_v0.1.5/io.github.d9speed.scene_tools-0.1.5.zip",
+          "zipSHA256": "002ea4720ec2d121476e5d52bc5fb83141725935f8233c5873c5d19f0d730ac9"
         }
       }
     },
